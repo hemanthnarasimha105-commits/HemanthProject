@@ -9,7 +9,7 @@ const productSlice = createSlice({
   initialState: {
     veg: [
       { id: "veg-1", name: "Paneer Butter Masala", price: 60, image: "public/images/Paneer Butter Masala.png", description: "Rich and creamy curry made with paneer cubes simmered in tomato-based gravy." },
-      { id: "veg-2", name: "Veg Biryani", price: 63, image: "/images/Veg Biryani.png", description: "Fragrant rice cooked with fresh vegetables and aromatic spices." },
+      { id: "veg-2", name: "Veg Biryani", price: 63, image: "/Veg Biryani.png", description: "Fragrant rice cooked with fresh vegetables and aromatic spices." },
       { id: "veg-3", name: "Chole Bhature", price: 50, image: "/images/Chole Bhature.png", description: "Spicy chickpea curry served with fluffy fried bhature." },
       { id: "veg-4", name: "Veg Fried Rice", price: 55, image: "/images/Veg Fried Rice.png", description: "Chinese-style fried rice with fresh seasonal vegetables." },
       { id: "veg-5", name: "Masala Dosa", price: 42, image: "/images/Masala Dosa.png", description: "Crispy dosa stuffed with spicy potato filling, served with chutney and sambar." },
