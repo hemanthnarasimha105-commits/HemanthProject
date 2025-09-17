@@ -19,11 +19,11 @@ function Home() {
   const [dealsActive, setDealsActive] = useState(true);
 
   const carouselImages = [
-    { src: "./images/veg.png", text: "Fresh Vegetables & Meals" },
-    { src: "./images/nonveg.png", text: "Delicious Non-Veg Dishes" },
-    { src: "./images/drinks.png", text: "Refreshing Drinks" },
-    { src: "./images/milk.png", text: "Pure & Fresh Milk" },
-    { src: "./images/Chocolate.png", text: "Sweet Chocolate Treats" },
+    { src: "/images/veg.png", text: "Fresh Vegetables & Meals" },
+    { src: "/images/nonveg.png", text: "Delicious Non-Veg Dishes" },
+    { src: "/images/drinks.png", text: "Refreshing Drinks" },
+    { src: "/images/milk.png", text: "Pure & Fresh Milk" },
+    { src: "/images/Chocolate.png", text: "Sweet Chocolate Treats" },
   ];
 
   const scrollToCategories = () => {
